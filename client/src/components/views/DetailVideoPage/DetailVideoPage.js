@@ -48,7 +48,7 @@ function DetailVideoPage(props) {
 						style={{ width: '100%', padding: '3rem 4em' }}>
 						<video
 							style={{ width: '100%' }}
-							src={`http://localhost:5000/${Video.filePath}`}
+							src={`https://youtube-clone-ab.herokuapp.com/${Video.filePath}`}
 							controls></video>
 
 						<List.Item
